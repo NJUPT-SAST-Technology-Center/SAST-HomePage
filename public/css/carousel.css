@@ -1,0 +1,190 @@
+.carousel-indicators{
+    position: absolute;
+    left: 9.1rem;
+    top: 6.17rem;
+    width: 1rem;
+    margin-left: 0;
+
+}                       
+/* carousel-indicators.li和carousel.indicators.active属性修改在bootstrap.css中，在注释中以"change"注明*/
+
+
+.carousel-inner{
+    height: 6.75rem;
+}
+
+.carousel-mask{
+    position: absolute;
+    width: 10.8rem;
+	height: 4.18rem;
+	background-color: #ffffff;
+    box-shadow: 0rem 0.13rem 0.59rem 0.02rem #C0C4CC;
+    border-radius: 0.26rem;
+    left: 4.2rem;
+    top: 1.87rem;
+    z-index: 0; 
+}
+
+#carouselPicture-1{
+    position: absolute;
+    width: 5.27rem;
+    height: 4.33rem;
+    left: 0.67rem;
+    top: -0.15rem;
+    z-index: 1;
+}
+
+#carouselPicture-2{
+    position: absolute;
+    width: 5.66rem;
+	height: 4.34rem;
+    left: 0.54rem;
+    top: -0.15rem;
+    z-index: 1;
+}
+
+#carouselPicture-3{
+    position: absolute;
+    width: 6.5rem;
+	height: 4.4rem;
+    left: 0rem;
+    top: -0.22rem;
+    z-index: 1;
+}
+
+
+.carousel-text{
+    position: absolute;
+    width: 3.5rem;
+	height: 2.79rem;
+    right: 0.83rem;
+    top: 0.57rem;
+}
+
+.ct-title{
+    font-family: 'Microsoft YaHei',PingFangSC-Regular,sans-serif;
+	font-size: 0.48rem;
+	font-weight: bold;
+	font-stretch: normal;
+	letter-spacing: 0.001rem;
+}
+
+.ct-line{
+    width: 3.45rem;
+    background-color: #C0C4CC;
+    margin: 0.18rem 0;
+}
+
+.ct-text{
+    margin-bottom: 0.16rem;
+	font-family: Microsoft YaHei,PingFangSC-Regular,sans-serif;
+	font-size: 0.14rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0.001rem;
+}
+
+.ct-more{
+	font-family: 'Microsoft YaHei','PingFangSC-Regular',sans-serif;
+	font-size: 0.18rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0.001rem;
+}
+
+#ctTitle-1{
+    color:#53A0FD;
+}
+
+#ctMore-1{
+    color: #53A0FD ;
+}
+
+#ctTitle-2{
+    color: #03E5BF ;
+}
+
+#ctMore-2{
+    color: #03E5BF ;
+}
+
+#ctTitle-3{
+    color: #27A29C;
+}
+
+#ctMore-3{
+    color: #27A29C;
+}
+
+
+/* 移动端 */
+@media only screen and (max-width:767px){
+    .carousel-indicators{
+        top: 4.98rem;
+    }   
+    
+    .carousel-inner{
+        height: 5.6rem;
+    }
+    
+    .carousel-mask{
+        width: 3.2rem;
+	    height: 3.66rem;
+        left: 0.28rem;
+        top: 1.19rem;
+    }
+
+    #carouselPicture-1{
+        width: 2.2rem;
+	    height: 1.81rem;
+        left: 0.51rem;
+        top: -0.09rem;
+    }
+    
+    #carouselPicture-2{
+        width: 2.36rem;
+        height: 1.81rem;
+        left: 0.48rem;
+        top: -0.08rem;
+    }
+    
+    #carouselPicture-3{
+        width: 2.7rem;
+        height: 1.84rem;
+        left: 0.25rem;
+        top: -0.12rem;
+        z-index: 1;
+    }
+    
+    .carousel-text{
+        width: 2.69rem;
+	    height: 2.07rem;
+        left: 0.25rem;
+        top: 1.37rem;
+/*         background-color: rgba(255, 250, 250, 0.616);
+        box-shadow: 0 -0.15rem 0.15rem 0 rgba(255, 250, 250, 0.616);   */      
+        z-index: 3;
+    }
+    
+    .ct-title{
+        font-size: 0.3rem;
+        text-align:center;
+    }
+    
+    .ct-line{
+        width: 2.69rem;
+        margin: 0.12rem 0;
+    }
+    
+    .ct-text{
+        font-size: 0.12rem;
+        margin-bottom: 0.1rem;
+        box-shadow: 0 -1.2rem 1.2rem 0 rgba(255, 250, 250, 0.918);   /* 虚化图片 */
+        z-index: 2;
+    }
+    
+    .ct-more{
+        font-size: 0.14rem;
+    }
+
+}

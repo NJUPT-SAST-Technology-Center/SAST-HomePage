@@ -1,0 +1,394 @@
+#logo-1{
+    position: absolute;
+    top: 0.53rem;
+    left: 4.2rem;
+    width: 1.35rem;
+    height: auto;
+}
+
+#rectangle-1{
+    position: absolute;
+    width: 5.1rem;
+    height: 6.38rem;
+    left: 0;
+    top:2.87rem;
+    z-index: -1;   /*令轮播图底面z-index:0;*/
+}
+@keyframes rectangle-1{
+    from {
+        left:-5.1rem;
+        top: 8rem;
+    }     
+    to {
+        left:0rem;
+        top: 2.87rem; 
+    }    
+}
+/*Safri,Chrome*/
+@-webkit-keyframes rectangle-1{
+    from {
+        left:-5.1rem;
+        top: 8rem;
+    }     
+    to {
+        left:0rem;
+        top: 2.87rem; 
+    }    
+}
+
+#rectangle-2{
+    position: absolute;
+    width: 2.75rem;
+    height: 2.75rem;
+    left: 3.72rem;
+    top: 5.07rem;
+    z-index: -2;
+}
+@keyframes rectangle-2{
+    from{
+        left: -6.47rem;
+        top: 10.75rem;
+    }
+    to{
+        left: 3.72rem;
+        top: 5.07rem;
+    }
+}
+/*Safri,Chrome*/
+@-webkit-keyframes rectangle-2{
+    from{
+        left: -6.47rem;
+        top: 10.75rem;
+    }
+    to{
+        left: 3.72rem;
+        top: 5.07rem;
+    }
+}
+
+#rectangle-3{
+    position: absolute;
+    width: 4.85rem;
+    height: 3.62rem;
+    left: 10.52rem;
+    top: 0rem;
+    z-index: -3;
+}
+@keyframes rectangle-3{
+    from{
+        left: 15.4rem;
+        top: -3.62rem;
+    }
+    to{
+        left: 10.52rem;
+        top: 0rem;
+    }
+}
+/*Safri,Chrome*/
+@-webkit-keyframes rectangle-3{
+    from{
+        left: 15.4rem;
+        top: -3.62rem;
+    }
+    to{
+        left: 10.52rem;
+        top: 0rem;
+    }
+}
+
+#rectangle-4{
+    position: absolute;
+    width: 1.8rem;
+    height: 0.8rem;
+    left: 12.3rem;
+    top: 0rem;
+    z-index: -1;
+}
+@keyframes rectangle-4{
+    from{
+        left: 14.5rem;
+        top: -1.8rem;
+    }
+    to{
+        left: 12.3rem;
+        top: 0rem;
+    }
+}
+/*Safri,Chrome*/
+@-webkit-keyframes rectangle-4{
+    from{
+        left: 14.5rem;
+        top: -1.8rem;
+    }
+    to{
+        left: 12.3rem;
+        top: 0rem;
+    }
+}
+
+#rectangle-5{
+    position: absolute;
+    width: 2.64rem;
+    height: 1.2rem;
+    left: 12.9rem;
+    top: 0rem;
+    z-index: -2;
+
+}
+@keyframes rectangle-5{
+    from{
+        left: 15.5rem;
+        top: -1.2rem;
+    }
+    to{
+        left: 12.9rem;
+        top: 0rem;
+    }
+}
+/*Safri,Chrome*/
+@-webkit-keyframes rectangle-5{
+    from{
+        left: 15.5rem;
+        top: -1.2rem;
+    }
+    to{
+        left: 12.9rem;
+        top: 0rem;
+    }
+}
+
+#rectangle-6{
+    position: absolute;
+    width: 5.42rem;
+    height: 4.42rem;
+    left: 13.78rem;
+    top: 0rem; 
+    z-index: -4;
+}
+@keyframes rectangle-6{
+    from{
+        left: 24.62rem;
+        top: -4.42rem;
+    }
+    to{
+        left: 13.78rem;
+        top: 0rem;
+    }
+}
+@-webkit-keyframes rectangle-6{
+    from{
+        left: 24.62rem;
+        top: -4.42rem;
+    }
+    to{
+        left: 13.78rem;
+        top: 0rem;
+    }
+}
+
+#cube{
+    position: absolute;
+    left: 14.25rem;
+    top: 5.49rem;
+    width: 1.31rem;
+    height: auto;
+    z-index: 2;
+}
+
+#world-1{
+    position: absolute;
+    left: 7.49rem;
+    top: 7.49rem;
+    width: 4.23rem;
+	height: auto;
+}
+
+
+/* 移动端 */
+@media only screen and (max-width: 767px){
+    #logo-1{
+        top: 0.3rem;
+        left: 0.33rem;
+        width: 0.88rem;
+	    height: auto;
+    }
+
+    #rectangle-1{
+        width: 2.4rem;
+        height: 3rem;
+        left: -0.92rem;
+        top:3.09rem;
+    }
+    @keyframes rectangle-1{
+        from {
+            left:-2.4rem;
+            top: 6.09rem;
+        }     
+        to {
+            left:-0.92rem;
+            top: 3.09rem; 
+        }    
+    }
+    /*Safri,Chrome*/
+    @-webkit-keyframes rectangle-1{
+        from {
+            left:-2.4rem;
+            top: 6.09rem;
+        }     
+        to {
+            left:-0.92rem;
+            top: 3.09rem; 
+        }       
+    } 
+
+    #rectangle-2{
+        width: 1.29rem;
+        height: 1.29rem;
+        left: 0.84rem;
+        top: 4.12rem;
+    }
+    @keyframes rectangle-2{
+        from{
+            left: -2.13rem;
+            top: 7.38rem;
+        }
+        to{
+            left: 0.84rem;
+            top: 4.12rem;
+        }
+    }
+    /*Safri,Chrome*/
+    @-webkit-keyframes rectangle-2{
+        from{
+            left: -2.13rem;
+            top: 7.38rem;
+        }
+        to{
+            left: 0.84rem;
+            top: 4.12rem;
+        }
+    }
+
+    #rectangle-3{
+        width: 2.29rem;
+        height: 1.71rem;
+        left: 1.32rem;
+        top: -0.51rem;
+    }
+    @keyframes rectangle-3{
+        from{
+            left: 3.6rem;
+            top: -1.71rem;
+        }
+        to{
+            left: 1.32rem;
+            top: -0.51rem;
+        }
+    }
+    /*Safri,Chrome*/
+    @-webkit-keyframes rectangle-3{
+        from{
+            left: 3.6rem;
+            top: -1.71rem;
+        }
+        to{
+            left: 1.32rem;
+            top: -0.51rem;
+        }
+    }
+
+    #rectangle-4{
+        width: 0.56rem;
+        height: 0.25rem;
+        left: 2.07rem;
+        top: 0rem;
+    }
+    @keyframes rectangle-4{
+        from{
+            left: 2.75rem;
+            top: -0.25rem;
+        }
+        to{
+            left: 2.07rem;
+            top: 0rem;
+        }
+    }
+    /*Safri,Chrome*/
+    @-webkit-keyframes rectangle-4{
+        from{
+            left: 2.75rem;
+            top: -0.25rem;
+        }
+        to{
+            left: 2.07rem;
+            top: 0rem;
+        }
+    }
+
+    #rectangle-5{
+        width: 0.97rem;
+        height: 0.43rem;
+        left: 2.44rem;
+        top: 0rem;
+    }
+    @keyframes rectangle-5{
+        from{
+            left: 3.4rem;
+            top: -0.43rem;
+        }
+        to{
+            left: 2.44rem;
+            top: 0rem;
+        }
+    }
+    /*Safri,Chrome*/
+    @-webkit-keyframes rectangle-5{
+        from{
+            left: 3.4rem;
+            top: -0.43rem;
+        }
+        to{
+            left: 2.44rem;
+            top: 0rem;
+        }
+    }
+
+    #rectangle-6{
+        width: 2.4rem;
+        height: 1.96rem;
+        left: 2.74rem;
+        top: -0.1rem; 
+    }
+    @keyframes rectangle-6{
+        from{
+            left: 7.15rem;
+            top: -1.96rem;
+        }
+        to{
+            left: 2.74rem;
+            top: -0.1rem; 
+        }
+    }
+    @-webkit-keyframes rectangle-6{
+        from{
+            left: 7.15rem;
+            top: -1.96rem;
+        }
+        to{
+            left: 2.74rem;
+            top: -0.1rem; 
+        }
+    }
+
+    #cube{
+        display: none;
+    }
+    
+    #world-1{
+        left: 0.73rem;
+        top: 5.61rem;
+        width: 2.29rem;
+	    height: auto;
+    }
+
+}

@@ -1,0 +1,92 @@
+#logo-2 {
+    position: absolute;
+    left: 4.5rem;
+    top: 0.7rem;
+    width: 1.35rem;
+    height: auto;
+}
+
+#detail {
+    position: absolute;
+    left: 6.52rem;
+    top: 0.88rem;
+    font-size: 0.14rem;
+    color: #DCDFE6;
+}
+
+.icon {
+    width: 0.15rem;
+    height: 0.15rem;
+}
+
+#line {
+    position: absolute;
+    left: 4.22rem;
+    top: 1.88rem;
+    margin: 0;
+    width: 9.6rem;
+    height: 0.01rem;
+    background-color: #4A4A4A;
+    border: none;
+}
+
+#qq {
+    position: absolute;
+    left: 12.23rem;
+    top: 0.49rem;
+    width: 1.04rem;
+}
+
+.qrcode {
+    width: 1.04rem;
+    height: 1.04rem;
+}
+
+.remark {
+    margin-top: 0.08rem;
+    text-align: center;
+}
+
+#copyright {
+    position: absolute;
+    text-align: center;
+    left: 4.28rem;
+    top: 1.99rem;
+}
+
+/* 移动端 */
+
+@media only screen and (max-width:767px) {
+    #logo-2 {
+        left: 1.2rem;
+        top: 0.41rem;
+        width: 1.35rem;
+        height: auto;
+    }
+    #detail {
+        left: 0;
+        top: 1.37rem;
+        width: 100%;
+        text-align: center;
+        font-size: 0.12rem;
+    }
+    #line {
+        left: 0.38rem;
+        top: 1.89rem;
+        width: 2.99rem;
+    }
+    #qq {
+        left: 1.36rem;
+        top: 2.08rem;
+    }
+    .remark {
+        font-size: 0.1rem;
+    }
+    #copyright {
+        left: 0;
+        top: 3.61rem;
+        width: 100%;
+        text-align: center;
+        font-size: 0.1rem;
+    }
+}

@@ -1,0 +1,119 @@
+#dataTitle{
+    position: absolute;
+    left: 4.2rem;
+    top: 18.17rem;
+    width: 2.01rem;
+	height: auto;
+}
+
+.box{
+    margin-bottom: 0.3rem;
+	height: 1.08rem;
+	float: left;
+}
+
+.card-left{
+    position: relative;
+    left: 0.86rem;
+    width: 5.14rem;
+    height: 1.08rem;
+	background-color: #ffff;
+	box-shadow: 0rem 0rem 0.15rem 0rem 	rgba(219, 219, 219, 0.5);
+    border-radius: 0.13rem;
+}
+
+.card-right{
+    position: relative;
+    width: 5.14rem;
+    height: 1.08rem;
+	background-color: #ffff;
+	box-shadow: 0rem 0rem 0.15rem 0rem 	rgba(219, 219, 219, 0.5);
+    border-radius: 0.13rem;
+}
+
+.data-num{
+    position: absolute;
+    left: 0.35rem;
+    top: 0.18rem;
+    font-size: 0.18rem;
+    font-weight: bold;
+    color: #27a29c;
+}
+
+h1{
+    font-size: 0.64rem;
+    font-weight: bold;
+    display: inline;
+}
+
+.data-text{
+    position: absolute;
+    left: 2.15rem;
+    top: 0.32rem;
+    width: 2.7rem;
+	font-size: 0.14rem;
+}
+
+/* 悬停样式 */
+.card:hover{
+    background-color: #03E5BF;
+    box-shadow:0 0 0.15rem 0 #a9a9a979 ;
+}
+
+.card:hover .data-num{
+    color: #FFF;
+}
+
+.card:hover .data-text{
+    color: #606266;
+}
+
+
+/* 移动端 */
+@media only screen and (max-width:767px){
+    #dataTitle{
+        position: absolute;
+        left: 0.31rem;
+        top: 16.88rem;
+        width: 1.6rem;
+	    height: auto;
+    }
+
+    .box{
+        margin-bottom: 0.21rem;
+        height: 1.08rem;
+        float: left;
+    }
+
+    .card-left,.card-right{
+        position: relative;
+        left: 0.15rem;
+        width: 3.13rem;
+        height: 1.08rem;
+    }
+
+    .data-num{
+        position: absolute;
+        left: 0.21rem;
+        top: 0.29rem;
+        font-size: 0.14rem;
+    }
+    
+    h1{
+        font-size: 0.36rem;
+    }
+    
+    .data-text{
+        position: absolute;
+        left: 1.31rem;
+        top: 0.25rem;
+        width: 1.64rem;
+    }
+
+    #dataCard-1{display: none;}
+
+    #dataCard-2{display: none;}
+
+    #dataCard-6{display: none;}
+
+}
