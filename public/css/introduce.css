@@ -1,0 +1,333 @@
+#wave{
+    position: absolute;
+    width: 100%;
+    height: 9.77rem;
+    left: 0;
+    top: 9.5rem;            /* 距模块顶端距离=（距页面顶端距离-9.5rem） */
+    /* overflow: hidden; */
+}
+
+#wave-1{
+    position: absolute;
+    top: 0.9rem;
+    left: -3.5rem;
+    width: 22.86rem;
+    height: 7.18rem;
+    z-index: -1;
+    animation: wave-1 3s linear infinite alternate;
+    -webkit-animation: wave-1 3s linear infinite alternate;  /* Chrome 4.0,Safari 4.0,Opera 15.0 */
+    -moz-animation: wave-1 3s linear infinite alternate;    /* Firefox 5.0 */
+    -o-animation: wave-1 3s linear infinite alternate;      /* Opera 12.0 */
+     
+}
+@keyframes wave-1 {
+    0% {
+        transform: rotate(0deg);
+        -ms-transform: rotate(0deg);  /* IE9.0 */
+    }
+    100% {
+        transform: rotate(-3deg);
+        -ms-transform: rotate(-3deg);  
+    }
+} 
+@-webkit-keyframes wave-1 {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(-3deg);
+    }
+}
+@-moz-keyframes wave-1 {
+    0% {
+        -moz-transform: rotate(0deg);
+    }
+    100% {
+        -moz-transform: rotate(-3deg);
+    }
+}
+@-o-keyframes wave-1 {
+    0% {
+        -o-transform: rotate(0deg);
+    }
+    100% {
+        -o-transform: rotate(-3deg);
+    }
+}                                  
+
+#wave-2{
+    position: absolute;
+    top: 0rem;
+    left: -3.5rem;
+    width: 24.88rem;
+	height: 9.77rem;
+    z-index: 0;
+    animation: wave-2 3s linear infinite alternate;
+    -webkit-animation: wave-2 3s linear infinite alternate;  /* Chrome 4.0,Safari 4.0,Opera 15.0 */
+    -moz-animation: wave-2 3s linear infinite alternate;    /* Firefox 5.0 */
+    -o-animation: wave-2 3s linear infinite alternate;      /* Opera 12.0 */
+     
+}
+@keyframes wave-2 {
+    0% {
+        transform: rotate(0deg);
+        -ms-transform: rotate(0deg);  /* IE9.0 */
+    }
+    100% {
+        transform: rotate(10deg);
+        -ms-transform: rotate(10deg);  
+    }
+} 
+@-webkit-keyframes wave-2 {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(10deg);
+    }
+}
+@-moz-keyframes wave-2 {
+    0% {
+        -moz-transform: rotate(0deg);
+    }
+    100% {
+        -moz-transform: rotate(10deg);
+    }
+}
+@-o-keyframes wave-2 {
+    0% {
+        -o-transform: rotate(0deg);
+    }
+    100% {
+        -o-transform: rotate(10deg);
+    }
+}               
+
+#wave-3{
+    position: absolute;
+    top: 0.75rem;
+    left: -3.5rem;
+    width: 24.24rem;
+    height: 7rem;
+    z-index: -2;
+    animation: wave-3 6s linear infinite alternate;
+    -webkit-animation: wave-3 6s linear infinite alternate;  /* Chrome 4.0,Safari 4.0,Opera 15.0 */
+    -moz-animation: wave-3 6s linear infinite alternate;    /* Firefox 5.0 */
+    -o-animation: wave-3 6s linear infinite alternate;      /* Opera 12.0 */
+     
+}
+@keyframes wave-3 {
+    0% {
+        transform: rotate(0deg);
+        -ms-transform: rotate(0deg);  /* IE9.0 */
+    }
+    50% {
+        transform: rotate(0.8deg);
+        -ms-transform: rotate(0.8deg);  
+    }
+    100%{
+        transform: rotate(-0.8deg);
+        -ms-transform: rotate(-0.8deg);  
+    } 
+} 
+@-webkit-keyframes wave-3 {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    50% {
+        -webkit-transform: rotate(0.8deg)
+    }
+    100% {
+        -webkit-transform: rotate(-0.8deg);
+    }
+}
+@-moz-keyframes wave-3 {
+    0% {
+        -moz-transform: rotate(0deg);
+    }
+    50% {
+        -moz-transform: rotate(0.8deg)
+    }
+    100% {
+        -moz-transform: rotate(-0.8deg);
+    }
+}
+@-o-keyframes wave-3 {
+    0% {
+        -o-transform: rotate(0deg);
+    }
+    50% {
+        -o-transform: rotate(0.8deg)
+    }
+    100% {
+        -o-transform: rotate(-0.8deg);
+    }
+} 
+
+
+#summary{
+    position: absolute;
+    left:4rem;
+    top: 11.81rem;
+}
+
+.summary{
+    position: absolute;
+    width: 4.73rem;
+    height: 0.88rem;
+    left: 0;
+    margin-bottom: 0.04rem;
+}
+
+.summary-pic{
+    width: 0.5rem;
+	height: auto;
+}
+
+.summary-title{
+    position: absolute;
+    left: 0.71rem;
+    top: 0;
+	font-size: 0.24rem;
+	font-weight: bold;
+	font-stretch: normal;
+	letter-spacing: 0.001rem;
+}
+
+.summary-text{
+    position: absolute;
+    left: 0.71rem;
+    top: 0.48rem;
+    width: 4.02rem;
+    height: 0.4rem;
+	font-size: 0.14rem;
+	font-weight: normal;
+	font-stretch: normal;
+    letter-spacing: 0.001rem;
+    z-index: 1;
+}
+
+#summary-2{
+    top: 1.28rem;
+}
+
+#summary-3{
+    top: 2.56rem;
+}
+
+#summary-4{
+    top: 3.84rem;
+}
+
+
+#question{
+    position: absolute;
+    left: 10.11rem;
+    top: 11.67rem;
+    width: 3.56rem;
+	font-size: 0.36rem;
+	font-weight: bold;
+	color: #27A29C
+}
+
+#answer{
+    position: absolute;
+    left: 10.11rem;
+    top: 12.49rem;
+    width: 3.34rem;
+	font-size: 0.14rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0.001rem;
+    color: #606266;
+    z-index: 2;
+}
+
+#tree{
+    position: absolute;
+    left: 12.07rem;
+    top: 10.65rem;
+    width: 5.35rem;
+    height: auto;
+    z-index: 1;
+}
+
+
+
+/* 移动端 */
+@media only screen and (max-width:767px){
+    #wave{
+        width: 100%;
+        top: 5.8rem;
+        height: 12rem;
+    }
+
+    #wave-1{
+        top: 0.97rem;
+        left: -9.5rem;
+        width: 22.86rem;
+        height: 9.62rem;
+    }
+
+    #wave-2{
+        top: 0.1rem;
+        left: -10.5rem;
+        width: 24.88rem;
+        height: 12.45rem;
+    }
+
+    #wave-3{
+        top: 0.85rem;
+        left: -10.5rem;
+        width: 24.24rem;
+        height: 8.8rem;
+    }
+
+
+    #question{
+        left: 1.07rem;
+        top: 7.66rem;
+        width: 1.79rem;
+        font-size: 0.3rem;
+    }
+
+    #summary{
+        left:0.63rem;
+        top: 8.88rem;
+    }
+
+    .summary{
+        width: 2.5rem;
+        height: 1.6rem;
+        left: 0;
+    }
+
+    .summary-pic{
+        position: absolute;
+        left: 1rem;
+    }
+
+    .summary-title{
+        left: 0.43rem;
+        top: 0.6rem;
+	    font-size: 0.2rem;
+    }
+
+    .summary-text{
+        left: 0;
+        top: 0.98rem;
+        width: 2.5rem;
+        height: 0.63rem;
+    }
+
+    #summary-2{top: 1.88rem;}
+
+    #summary-3{top: 3.77rem;}
+    
+    #summary-4{top: 5.65rem;}
+
+    #answer{display: none;}
+
+    #tree{display: none;}
+    
+} 
